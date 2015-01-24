@@ -1,22 +1,23 @@
-/* 
+/*
 
 
-    _/                                  _/            
-   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/   
-  _/        _/    _/  _/    _/  _/    _/  _/    _/    
- _/        _/    _/  _/    _/  _/    _/  _/    _/     
-_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/      
-                                             _/       
-                                        _/_/          
-                                                 
-											   V 1.0                                  
-                                  													 
+    _/                                  _/
+   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/
+  _/        _/    _/  _/    _/  _/    _/  _/    _/
+ _/        _/    _/  _/    _/  _/    _/  _/    _/
+_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/
+                                             _/
+                                        _/_/
+
+											   V 1.0
+
                                   													 */
 @import "iconfont.css";
 @import "animate.min.css";
 
 /*-----------------------------------------------------------------------------------*/
 /* GENERAL
+/* NogiFeed color #9933cc
 /*-----------------------------------------------------------------------------------*/
 
 body{
@@ -73,23 +74,32 @@ button {
 /*-----------------------------------------------------------------------------------*/
 
 /*---- Typography ----*/
-header h1, 
+header h1,
 .payoff h1,
 .details .carousel,
 .social a:hover{
+  /*
 	color: #0bf397;
+  */
+  color: #970bf3;
 }
 
 .features p{
+  /*
 	color: #06b872;
+  */
+  color: #7206b8;
 }
 
 /*---- Background ----*/
 .features,
 .detail .carousel-indicators .active {
-	background: #0bf397;	
+  /*
+	background: #0bf397;
+  */
+  background: #970bf3;
 }
-	
+
 
 /*-----------------------------------------------------------------------------------*/
 /* NAVBAR
@@ -127,7 +137,7 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: #3A3A3A;	
+	color: #3A3A3A;
 	cursor: pointer;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -138,7 +148,9 @@ nav.navbar.fixed-to-top{
 
 .navbar-default .navbar-brand{
 	color: #333333;
+  /*
 	text-transform: uppercase;
+  */
 	font-weight: 400;
 	font-size: 2em;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -146,26 +158,35 @@ nav.navbar.fixed-to-top{
 
 
 /*-----------------------------------------------------------------------------------*/
-/* HEADER 
+/* HEADER
 /*-----------------------------------------------------------------------------------*/
 
 header{
-	padding: 150px 0px 0px 0px;
-	height: 960px;
-	background: url('../img/nepal.jpg');
+  /*
+  padding: 150px 0px 0px 0px;
+  height: 960px;
+  */
+  padding: 100px 0px 0px 0px;
+  height: 900px;
+  background: url('../img/nepal.jpg');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
+  /*
 	color: white;
+  */
+  color: #b653f7;
 }
 
 header h1{
+  /*
 	text-transform: uppercase;
+  */
 	font-weight: 700;
 	font-weight: 300;
 	font-size: 100px;
 	font-family: 'Roboto Condensed', sans-serif;
-	
+
 }
 
 header p.lead{
@@ -180,7 +201,7 @@ header .carousel-iphone{
 	height: 672px;
 	background: url('../img/iphone-front.png') no-repeat;
 	background-size: 100%;
-	
+
 }
 
 header .carousel {
@@ -194,7 +215,10 @@ header .carousel {
 header .carousel-indicators .active {
 	width: 15px;
 	height: 15px;
+  /*
 	background: #444444;
+  */
+  background: #880adb;
 }
 
 header .carousel-indicators {
@@ -206,8 +230,11 @@ header .carousel-indicators li {
 	margin: 1px;
 	width: 15px;
 	height: 15px;
+  /*
 	border: 1px solid #666666;
-	border-radius: 10px;
+  */
+  border: 1px solid #880adb;
+  border-radius: 10px;
 	text-indent: -999px;
 	cursor: pointer;
 }
@@ -244,7 +271,9 @@ header .carousel-indicators li {
 }
 
 .payoff h1{
+  /*
 	text-transform: uppercase;
+  */
 	font-weight: 300;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 2.8em;
@@ -354,7 +383,9 @@ header .carousel-indicators li {
 
 .features h2{
 	color: #ffffff;
+  /*
 	text-transform: uppercase;
+  */
 	font-weight: 300;
 }
 
@@ -368,7 +399,7 @@ header .carousel-indicators li {
 	border: 2px solid #ffffff;
 	border-radius: 100%;
 	text-align: center;
-	
+
 }
 
 .features span.glyphicon, .features i{
@@ -383,11 +414,14 @@ header .carousel-indicators li {
 
 .social{
 	overflow: hidden;
+  /*
 	padding: 80px 0px 150px 0px;
-	min-height: 350px;
+  */
+  padding: 80px 0px 150px 0px;
+  min-height: 350px;
 	background: url('../img/sea.jpg');
 	background-position: center top;
-	background-repeat: repeat-x;
+  background-repeat: repeat-x;
 	color: white;
 }
 
@@ -405,7 +439,7 @@ header .carousel-indicators li {
 .social a:hover{
 	text-decoration: none;
 	cursor: pointer;
-	
+
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -466,19 +500,19 @@ header .carousel-indicators li {
 /*-----------------------------------------------------------------------------------*/
 
 @media (max-width:768px) {
-	
+
 	header{
 		padding-bottom: 50px;
 		min-height: 1000px;
 		height: 100%;
 	}
-	
+
 	.navbar-nav {
 		float: left;
 		text-align: left;
 }
 
-	
+
 }
 
 @media (max-width:992px) {
@@ -517,37 +551,37 @@ header, .social{
 	header .carousel-iphone, .detail .app-screenshot{
 		width: 280px;
 	}
-	
+
 	header .carousel, .detail .app-screenshot img{
 		padding-top: 85px;
 		width: 245px;
 	}
-	
+
 	.detail .app-screenshot img{
 		margin-top: -12px;
 		padding-top: 0px;
 	}
-	
+
 	header{
 		padding-top: 30px;
 		padding-bottom: 0px;
 	}
-	
+
 	header h1{
 		font-size: 70px;
 	}
-	
+
 	.purchase{
 		padding-top: 50px;
 	}
-	
+
 	.features col-md-4{
 		margin-bottom: 50px;
 	}
-	
+
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     /* Retina-specific stuff here */
     .purchasebutton.app-store, .get-it button.app-store{
         background: url(../img/badge-appstore@2x.png) #3a3a3a no-repeat 0px 5px;
