@@ -166,9 +166,12 @@ header{
   padding: 150px 0px 0px 0px;
   height: 960px;
   */
-  padding: 100px 0px 0px 0px;
-  height: 900px;
+  padding: 250px 0px 0px 0px;
+  height: 800px;
+	/*
   background: url('../img/nepal.jpg');
+	*/
+	background: url('../img/top_page.jpg');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -217,6 +220,7 @@ header .carousel-indicators .active {
 	height: 15px;
   /*
 	background: #444444;
+	background: #880adb;
   */
   background: #880adb;
 }
@@ -232,6 +236,7 @@ header .carousel-indicators li {
 	height: 15px;
   /*
 	border: 1px solid #666666;
+	border: 1px solid #880adb;
   */
   border: 1px solid #880adb;
   border-radius: 10px;
